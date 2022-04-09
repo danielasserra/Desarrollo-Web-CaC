@@ -1,0 +1,28 @@
+/*Paleta de colores
+https://colorhunt.co/palette/9adcfffff89affb2a6ff8aae
+Blue: #9ADCFF
+Teal: #00EAD3 - rgb(154, 220, 255)
+yellow: #FFF89A - rgb(255, 248, 154)
+peach: #FFB2A6 - rgb(255, 178, 166)
+pink: #FF8AAE - rgb(255, 138, 174)
+*/
+*{
+    
+    background-color:#FFF89A;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+    background-color: #00EAD3;
+    text-align:center;
+    color:#FF8AAE;
+    width: 50%;
+    margin: auto;
+
+}
+
+h2{
+    color:#005F99
+}
+
+
