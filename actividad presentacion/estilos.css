@@ -7,10 +7,11 @@ peach: #FFB2A6 - rgb(255, 178, 166)
 pink: #FF8AAE - rgb(255, 138, 174)
 */
 *{
-    
-    background-color:#FFF89A;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:#FFF89A;
+
 }
+
 
 h1{
     background-color: #00EAD3;
@@ -24,5 +25,18 @@ h1{
 h2{
     color:#005F99
 }
+
+form {
+    text-align: center;
+}
+
+a[href]:hover {
+    background-color: #FF8AAE;
+    color:#FFF89A;
+}
+a[href]:visited {
+    color:#FF8AAE;
+}
+
 
 
