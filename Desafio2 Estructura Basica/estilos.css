@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    background-color: lightgrey;
+    height: 40px;
+    margin-bottom: 0.5%;
+    
+}
+
+#nav {
+    text-align: right;
+    
+   
+}
+
+section {
+    
+    margin-bottom: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+section img {
+    width: 10%;
+}
+
+#html {
+    margin-left: 3%;
+}
+
+footer {
+    text-align: center;
+    background-color: lightgray;
+}
