@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* PARA PONER IMAGEN DE FONDO....
+body {
+    background: url(https://i.pinimg.com/originals/a6/cf/f5/a6cff56a17c4d7cf7d94820796de5de9.jpg) right no-repeat;
+    background-size: auto;
+    background-color:blanchedalmond;
+    width: 100vh;
+    height: 100vh;
+    
+    background-color:#5a2e01; 
+}
+*/
+body {
+    background:url(https://wallpapercave.com/wp/QrZReJm.jpg) center;
+    
+    
+    
+}
+
+
+#padre { /*fondo de la página*/
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#card { /*contenedor del total de la Card*/
+    width: 300px;
+    height: 500px;
+    border: 2px solid gold;
+    border-radius: 30px;
+    background-color: black; 
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/28/23/01/red-1937356_1280.jpg);  
+    background-position: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nombre { /*nombre del pokemon*/
+    width: auto;
+    height: auto;
+    border: 2px solid gold;
+    border-radius: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+    position: relative;
+    bottom: 20px;
+    background-color: darkred;
+    color: beige;
+    font-size: small;
+}
+
+#bordeNinetales { /*div padre de img Ninetales*/
+    position: relative;
+   
+}
+
+#imgNinetales { /*la imgen del Ninetales*/
+    width: 250px;
+}
+#caracteristicas {
+    width: 260px;
+    height: 75px;
+    padding: 5px;
+    position: relative;
+    top: 1px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 110%;
+    
+    color:beige;
+
+}
+#descripción { /*div con texto sobre ninetales*/
+    width: 260px;
+    height: 75px;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 110%;
+    
+    color:beige;
+
+}
