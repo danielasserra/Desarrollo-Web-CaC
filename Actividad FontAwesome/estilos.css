@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px    
+}
+
+/*para centrar: iniciar flexbox y alto vh*/
+.contenedor-header {
+    display: flex;
+    height: 100vh;
+}
+
+/*centrar imagen*/
+.contenedor {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-top: auto;
+    margin-bottom: auto;   
+}
+
+/*características filas*/
+.box {
+    margin: 40px;
+    display: flex;
+    justify-content: flex-end;       
+}
+
+/*Fila 1: img 1 Twitter*/
+.t1 {
+    border: 1px solid rgb(7, 167, 151);
+    color: rgb(7, 167, 151);
+    font-size: 60px;
+    border-radius: 5%;
+    padding: 5px;        
+}
+
+/*Fila 1: segunda imagen Twitter*/
+.contenedor-t2 {
+    display:flex;
+    align-items: flex-end;    
+}
+
+.t2 {
+    background-color: blue;
+    color: orange;
+    font-size: 30px;
+    border: 1px solid blue;
+    border-radius: 25%;
+    margin-left: 10px;
+    
+    
+}
+/*Fila 1: tercera imagen Twitter*/
+.contenedor-t3 {
+    display:flex;
+    align-items: flex-end;    
+}
+
+.t3 {
+    background-color: rgb(126, 3, 126);
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    border-radius: 25%;
+    margin-left: 10px;   
+}
+
+/*Fila 1: img 4 Twitter*/
+.contenedor-t4 {
+    display:flex;
+    align-items: flex-end;    
+}
+.t4 {
+    background-color: rgb(106, 106, 27);
+    color: white;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10%;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: 15px;   
+}
+
+/*Fila 1: Img 5 - Twitter*/
+.contenedor-t5 {
+    display:flex;
+    align-items: flex-start;    
+}
+
+.t5 {
+    color: green;
+    font-size: large;
+    position: relative;
+    right: 10px;
+    top: 10px;
+}
+
+/*Fila 1: Img 6 - Face*/
+.contenedor-f1 {
+    display:flex;
+    align-items: flex-end;
+}
+.f1 {
+    background-color: blueviolet;
+    color: white;
+    border-radius: 20%;
+    font-size: large;
+    padding: 45%;
+    position: relative;
+    top: 50%;
+}
+
+/*Fila 1: Img 7 - G+*/
+.contenedor-g1 {
+    display:flex;
+    align-items: flex-start;
+}
+
+.g1 {
+    background-color: red;
+    color: white;
+    border-radius: 15%;
+    font-size: smaller;
+    padding: 20%;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/*Fila 2: img 1 LN*/
+.l1 {
+    background-color: rgb(126, 3, 126);
+    color: white;
+    font-size: 50px;
+    padding: 30%;
+    border-radius: 50%;
+    position: relative;
+    right: 280%;
+}
+
+/*Fila 2: img 2 LN*/
+.l2 {
+    background-color: blue;
+    color: orange;
+    font-size: 48px;
+    padding: 20%;
+    border-radius: 10%;
+    position: relative;
+    top: 7%;
+    right: 175%;
+}
+
+/*Fila 2: img 3 linkedin*/
+.l3 {
+    border: 1px solid rgb(7, 167, 151);
+    color: rgb(7, 167, 151);
+    font-size: 40px;
+    border-radius: 5%;
+    padding: 5px;        
+    position: relative;
+    top: 20%;
+    right: 75%;
+    
+}
+/*Fila 2: Img 4 - LNr*/
+
+.l4 {
+    color: green;
+    font-size: large;
+    position: relative;
+    right: 150%;
+    top: 65%;
+}
+
+/*Fila 2: Img 5 - f*/
+.f2 {
+    background-color: blue;
+    color: white;
+    border-radius: 20%;
+    font-size: 12px;
+    padding: 50%;
+    position: relative;
+    top: 60%;
+}
+
+/*Fila 3: Img 1 - IG*/
+.i1 {
+    color: darkblue;
+    font-size: 300%;
+    position: relative;
+    right: 280%;
+
+}
+
+/*Fila 3: Img 2 - IG*/
+.i2 {
+    color: rgb(7, 167, 151);
+    font-size: 250%;
+    position: relative;
+    right: 280%;
+    top: 15%;
+}
+
+/*Fila 3: Img 3 - IG*/
+.i3 {
+    color: orange;
+    font-size: 180%;
+    position: relative;
+    right: 280%;
+    top: 30%;
+}
+
+/*Fila 3: Img 4 - IG*/
+.i4 {
+    color: violet;
+    font-size: 120%;
+    position: relative;
+    right: 280%;
+    top: 45%;
+}
+
+/*Fila 2: Img 4 - f*/
+.f3 {
+    background-color: rgb(234, 25, 234);
+    color: white;
+    border-radius: 100%;
+    font-size: 12px;
+    padding: 50%;
+    position: relative;
+    top: 20%;
+    right: 350%;
+}
+
+
+/*Fila 2: Img 5 - g+*/
+.g2 {
+    color: purple;
+    position: relative;
+    top: 20%;
+}
