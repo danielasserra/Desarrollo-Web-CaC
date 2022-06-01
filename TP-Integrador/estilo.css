@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav img {
+    width: 120px;
+}
+
+/*cambio de color texto nav*/
+.color-green {
+    color:rgb(158, 221, 63);
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 300px;
+    z-index: 20;
+
+}
+
+/*texto previo a cards y form*/
+.container-text {
+    text-align: center;
+    margin-top: 1%;
+}
+
+/*Imagen BsAs/Octubre*/
+#honolulu {
+    width: 100%;
+    margin-top: 4%;
+    border: solid 2px gray 
+
+}
+/*BsAs titulo*/
+.col h2 {
+    margin-top: 3%;
+    font-size: 35px;
+}
+
+/*características de la columna*/
+.text-col {
+    background-color:rgb(58, 58, 58);
+    color: white;
+    margin-top: 2%;
+    border: solid 2px gray 
+}
+
+/*Parrafo BsAs/Octubre*/
+.text-col p {
+    font-size: 15px;
+}
+
+/*Texto previo a Form "charla ignite", subrayado*/
+.subrayado {
+    display: inline-block;
+    text-decoration: underline dotted;
+}
+
+/*tamaño del texto nav y form placeholder*/
+.text-size {
+    font-size: 20px;
+}
+/*boton del formulario*/
+.col-auto button {
+    width: 100%;
+    background-color: rgb(158, 221, 63);
+    border:  rgb(158, 221, 63);
+}
+
+footer {
+    background-color: #214d67;
+    color: white;
+    height: 100px;
+    margin-bottom: 2%;
+    
+}
+
+/*Texto del footer - decoracion*/
+.col a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 150%;
+}

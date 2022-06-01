@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Integrador</title>
+
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!--Mi CSS-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <header>
+
+        <!--Inicio NAV-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="codoacodo.png" alt="">
+                </a>
+                <a class="navbar-brand" href="#">Conf Bs As</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="text-size nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                        </li>
+                        <li class="text-size nav-item">
+                            <a class="nav-link" href="#">Los oradores</a>
+                        </li>
+                        <li class="text-size nav-item">
+                            <a class="nav-link" href="#">El lugar y la fecha</a>
+                        </li>
+                        <li class="text-size nav-item">
+                            <a class="nav-link" href="#">Conviértete en orador</a>
+                        </li>
+                        <li class="text-size nav-item">
+                            <a class="color-green nav-link" href="#">Comprar tickets</a>
+                        </li>
+                    </ul>
+
+
+                </div>
+            </div>
+        </nav>
+
+        <!--Fin NAV-->
+
+        
+        <!--Fin Texto Carrusel-->
+
+
+        <!--Inicio Carrusel-->
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    <img src="ba1.jpg" class="d-block w-100" alt="edificio aguas argentinas">
+                    <div class="carousel-caption">
+                        <h1 class="display">Lorem ipsum dolor sit amet.</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, repellendus.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="ba2.jpg" class="d-block w-100" alt="terraza">
+                </div>
+                <div class="carousel-item">
+                    <img src="ba3.jpg" class="d-block w-100" alt="obelisco">
+                </div>
+               
+            </div>
+            <!--Inicio Texto Carrusel-->
+        
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--Fin Carrusel-->
+
+    </header>
+
+    <section>
+        <div class="container-text">
+            <h5>CONOCE A LOS</h5>
+            <h2>ORADORES</h2>
+        </div>
+        <!--Inicio Cards-->
+        <div class="container">
+            <div class="card-group">
+                <div class="card">
+                    <img src="steve.jpg" class="card-img-top" alt="steve jobs">
+                    <div class="card-body">
+                        <h5 class="card-title">Steve Jobs</h5>
+                        <span class="badge text-bg-warning">JavaScript</span>
+                        <span class="badge text-bg-info">React</span>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aperiam
+                            repellat quisquam quae odit in voluptatem consequuntur expedita corporis incidunt?</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="bill.jpg" class="card-img-top" alt="bill gates">
+                    <div class="card-body">
+                        <h5 class="card-title">Bill Gates</h5>
+                        <span class="badge text-bg-warning">JavaScript</span>
+                        <span class="badge text-bg-info">React</span>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta dolores quas
+                            numquam odit consectetur pariatur eius, quis amet repellat rem.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="ada.jpeg" class="card-img-top" alt="Ada Lovelace">
+                    <div class="card-body">
+                        <h5 class="card-title">Ada Lovelace</h5>
+                        <span class="badge text-bg-secondary">Negocios</span>
+                        <span class="badge text-bg-danger">Startups</span>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eius
+                            commodi doloribus aperiam praesentium numquam ab at similique labore aliquid!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Fin Cards-->
+    </section>
+
+    <section>
+        <!--Inicio img/BsAs Octubre-->
+        <div class="row">
+
+            <div class="col">
+            
+                <img id="honolulu" src="honolulu.jpg" alt="">
+
+            </div>
+
+            <div class="col text-col">
+
+                <h2>Buenos Aires - Octubre</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolorem ad architecto temporibus voluptates esse, veritatis facere cum, deleniti at natus laboriosam repellat laudantium officia assumenda error ex. Mollitia molestias dignissimos harum in blanditiis nisi ipsam laboriosam architecto commodi aut eum dolores tempore ipsa optio ab libero, quia maiores facere non. Molestiae, repellat delectus ipsam quis nostrum quidem necessitatibus beatae officiis aperiam sit, maiores iste veniam libero?</p>
+                <button type="button" class="text-size btn btn-outline-light">Conocé más</button>
+
+            </div>
+            <!--FIN img/BsAs Octubre-->
+    </section>
+
+    <section>
+        <div class="container-text">
+            <h5>CONVIÉRTETE EN UN</h5>
+            <h2>ORADOR</h2>
+            <h5>Anótate como orador para dar una <div class="subrayado"> charla ignite</div>. ¡Cuéntanos de qué quieres
+                hablar!</h5>
+        </div>
+
+        <!--Inicio Form-->
+        <div class="container">
+            <form action="">
+
+                <div class="mb-3">
+                    <div class="row">
+                        <div class="col">
+                            <input type="text" class="text-size form-control" placeholder="Nombre"
+                                aria-label="First name">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="text-size form-control" placeholder="Apellido"
+                                aria-label="Last name">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <textarea class="text-size form-control" placeholder="¿Sobre qué quieres hablar?"
+                        id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <p>Recuerda incluir un título para tu charla</p>
+
+                <div class="col-auto">
+                    <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                </div>
+            </form>
+            <!--Fin Form-->
+    </section>
+
+    <!--Inicio Footer-->
+    <footer>
+
+        <div class="container">
+
+            <div class="row text-center">
+
+                <div class="col">
+
+                    <a href="#">Preguntas frecuentes</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Contáctenos</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Prensa</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Conferencias</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Terminos y condiciones</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Privacidad</a>
+
+                </div>
+
+                <div class="col">
+
+                    <a href="#">Estudiantes</a>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+
+        <!--Fin Footer-->
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
